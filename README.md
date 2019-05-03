@@ -1,2 +1,31 @@
-# findLinksInMarkdown
-Biblioteca que receba uma string (em formato Markdown) e extrai todos os links encontrados.
+# Extrai links de arquivo Markdown
+Esta biblioteca receba uma string (em formato Markdown) e devolve um vetor de objetos com todos os links encontrados.
+
+Essa versão abrange os seguintes tipos de links markdown: 
+
+``` markdown
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+```
+
+## Como instalar:
+```bash
+$ npm install markdown-parser
+```
+
+## Como utilizar:
+```javascript
+const MarkdownParser = require('markdown-parser');
+const markdownString = `[I'm an inline-style link](https://www.google.com)`;
+const links = MarkdownParser.getLinksFromMd(markdownString);
+
+//return [ { href: 'https://www.google.com', 
+//           text: 'I\'m an inline-style link' } ]
+
+```
+
+
+

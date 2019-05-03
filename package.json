@@ -1,0 +1,18 @@
+{
+  "name": "markdown-parser",
+  "version": "1.0.0",
+  "description": "Find links in Markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js"
+  },
+  "author": "Ana Cláudia Camargo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0"
+  }
+}
