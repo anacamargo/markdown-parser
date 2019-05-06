@@ -13,12 +13,12 @@ Essa versão abrange os seguintes tipos de links markdown:
 
 ## Como instalar:
 ```bash
-$ npm install markdown-parser
+$ npm install gtech-markdown-parser
 ```
 
 ## Como utilizar:
 ```javascript
-const MarkdownParser = require('markdown-parser');
+const MarkdownParser = require('gtech-markdown-parser');
 const markdownString = `[I'm an inline-style link](https://www.google.com)`;
 const links = MarkdownParser.getLinksFromMd(markdownString);
 

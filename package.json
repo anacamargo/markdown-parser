@@ -1,5 +1,5 @@
 {
-  "name": "markdown-parser",
+  "name": "gtech-markdown-parser",
   "version": "1.0.0",
   "description": "Find links in Markdown",
   "main": "index.js",
