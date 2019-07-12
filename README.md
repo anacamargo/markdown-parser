@@ -1,4 +1,6 @@
 # Extrai links de arquivo Markdown
+Projeto proposta pela Laboratoria durante o bootcamp de 2019.
+
 Esta biblioteca receba uma string (em formato Markdown) e devolve um vetor de objetos com todos os links encontrados.
 
 Essa versão abrange os seguintes tipos de links markdown: 
