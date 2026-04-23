@@ -1,5 +1,5 @@
 function getLinksFromMd(str) {
-  const regex = /\[([^\]]+)\]\(([http|\.|\/|\^\)][^\)^\s]+)/ig; // eslint-disable-line no-useless-escape
+  const regex = /\[([^\]]+)\]\(([http|\.|\/|\^\)][^\)^\s]+)/ig;  
   let matches = [];
   let match = null;
   while ((match = regex.exec(str))) {
